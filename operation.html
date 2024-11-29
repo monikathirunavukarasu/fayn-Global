@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations</title>
+    <link rel="stylesheet" href="operation.css">
+</head>
+<body>
+    <!-- Addition Form -->
+    <div class="form-container">
+        <h1>Addition</h1>
+        <form id="additionForm">
+            <label for="addNum1">Number 1:</label>
+            <input type="number" id="addNum1" placeholder="Enter first number">
+            
+            <label for="addNum2">Number 2:</label>
+            <input type="number" id="addNum2" placeholder="Enter second number">
+            
+            <label for="addResult">Result:</label>
+            <input type="text" id="addResult" placeholder="Result" readonly>
+            
+            <div class="button-group">
+                <button type="button" id="addButton">Add</button>
+                <button type="button" id="addClearButton">Clear</button>
+            </div>
+        </form>
+    </div>
+    <div class="form-container">
+        <h1>Subtraction</h1>
+        <form id="subtractionForm">
+            <label for="subNum1">Number 1:</label>
+            <input type="number" id="subNum1" placeholder="Enter first number">
+            
+            <label for="subNum2">Number 2:</label>
+            <input type="number" id="subNum2" placeholder="Enter second number">
+            
+            <label for="subResult">Result:</label>
+            <input type="text" id="subResult" placeholder="Result" readonly>
+            
+            <div class="button-group">
+                <button type="button" id="subtractButton">Subtract</button>
+                <button type="button" id="subClearButton">Clear</button>
+            </div>
+        </form>
+    </div>
+    <div class="form-container">
+        <h1>Multiplication</h1>
+        <form id="multiplicationForm">
+            <label for="mulNum1">Number 1:</label>
+            <input type="number" id="mulNum1" placeholder="Enter first number">
+            
+            <label for="mulNum2">Number 2:</label>
+            <input type="number" id="mulNum2" placeholder="Enter second number">
+            
+            <label for="mulResult">Result:</label>
+            <input type="text" id="mulResult" placeholder="Result" readonly>
+            
+            <div class="button-group">
+                <button type="button" id="multiplyButton">Multiply</button>
+                <button type="button" id="mulClearButton">Clear</button>
+            </div>
+        </form>
+    </div>
+    <div class="form-container">
+        <h1>Division</h1>
+        <form id="divisionForm">
+            <label for="divNum1">Number 1:</label>
+            <input type="number" id="divNum1" placeholder="Enter first number">
+            
+            <label for="divNum2">Number 2:</label>
+            <input type="number" id="divNum2" placeholder="Enter second number">
+            
+            <label for="divResult">Result:</label>
+            <input type="text" id="divResult" placeholder="Result" readonly>
+            
+            <div class="button-group">
+                <button type="button" id="divideButton">Divide</button>
+                <button type="button" id="divClearButton">Clear</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="operation.js"></script>
+</body>
+</html>
